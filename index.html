@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://assets.chucknorris.host/img/avatar/chuck-norris.png">
+    <!-- Pico css -->
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" href="style.css">    
+
     <title>Chuck Norris Random Joke AJAX Project</title>
 </head>
 <body>
-    <img src='https://assets.chucknorris.host/img/avatar/chuck-norris.png'>
-    <div id="display-joke">MIAU!</div>
-    <button id="get-joke">Get Joke!</button>
-    <script src="app.js"></script>
+    <main class='container'>        
+        <article>
+            <img src='https://assets.chucknorris.host/img/avatar/chuck-norris.png'>
+            <div id="display-joke"></div>
+            <button id="get-joke">Get Joke!</button>
+            <script src="app.js"></script>
+        </article>    
+    </main>
 </body>
 </html>
