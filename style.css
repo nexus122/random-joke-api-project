@@ -9,12 +9,14 @@ body{
 }
 
 img{
-    width: 10%;
+    width: 50%;
     height: auto;
+    border-radius: 1em;
 }
 button{
     font-size: .8em;
     border-radius: 5px;
+    color: black;
     background-color: orange;
     padding: 5px;
     cursor:pointer;
